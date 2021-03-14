@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "net" << endl;
+    cout << "da" << endl;
 }
 
