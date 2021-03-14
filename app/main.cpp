@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "rpvoerka" << endl;
+    cout << "gotovi" << endl;
 }
 
