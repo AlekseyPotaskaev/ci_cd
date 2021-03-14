@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "gsd" << endl;
+    cout << "loj" << endl;
 }
 
