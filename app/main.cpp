@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "gotovi" << endl;
+    cout << "net" << endl;
 }
 
