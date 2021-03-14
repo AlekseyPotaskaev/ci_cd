@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "loj" << endl;
+    cout << "asd" << endl;
 }
 
