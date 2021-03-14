@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "gehgue" << endl;
+    cout << "gasd" << endl;
 }
 
