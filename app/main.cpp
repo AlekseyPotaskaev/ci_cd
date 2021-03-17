@@ -4,6 +4,6 @@ using namespace std;
 
 int main()
 {
-    cout << "slava ukraine" << endl;
+    cout << "test123" << endl;
 }
 
