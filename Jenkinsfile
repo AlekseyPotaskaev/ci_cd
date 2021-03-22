@@ -8,14 +8,19 @@ pipeline
         {
             steps 
             {
-                sh scripts/build.sh   
+                
+                sh '''
+                sh scripts/build.sh
+                '''
             }
         }
         stage('Testing')
         {
             steps
             {
+                sh '''
                 sh scripts/test.sh
+                '''
             }
         }
     }
