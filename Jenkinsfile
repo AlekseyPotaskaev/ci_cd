@@ -4,8 +4,8 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-            sh 'cd /home/aleksey/Projects/ci_cd/app/'
-            sh 'g++ main.cpp'
+            
+            sh 'g++ /home/aleksey/Projects/ci_cd/app/main.cpp'
                 
             }
         }
