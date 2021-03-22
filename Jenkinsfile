@@ -8,28 +8,14 @@ pipeline
         {
             steps 
             {
-            
-            sh '''
-            pwd
-            g++ app/main.cpp 
-            ./a.out
-            ''' 
-                
+                sh scripts/build.sh   
             }
         }
         stage('Testing')
         {
             steps
             {
-                sh '''
-                RES = ./a.out ci
-                if [[ $RES == 'ci' ]]; then
-                    exit 0
-                else
-                    exit 1
-                fi
-
-                '''
+                sh scripts/test.sh
             }
         }
     }
