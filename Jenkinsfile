@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                ./home/Aleksey/Projects/ci_cd/app/
+                /home/Aleksey/Projects/ci_cd/app/
                 echo 'Hello World'
             }
         }
