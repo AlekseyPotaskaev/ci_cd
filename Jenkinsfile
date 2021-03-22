@@ -8,10 +8,8 @@ pipeline
         {
             steps 
             {
-                
-                sh '''
-                sh scripts/build.sh
-                '''
+                sh 'chmod +x scripts/ -R'
+                sh 'scripts/build.sh'
             }
         }
         stage('Testing')
