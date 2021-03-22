@@ -7,8 +7,7 @@ pipeline {
             
             sh '''
             pwd
-            ls 
-            g++ /app/main.cpp 
+            g++ app/main.cpp 
             ./a.out
             ''' 
                 
