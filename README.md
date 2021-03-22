@@ -1,3 +1,3 @@
 # ci_cd
-script path Jenkinsfile 
-lightweight checkout -
+script path Jenkinsfile /n
+lightweight checkout - /n
