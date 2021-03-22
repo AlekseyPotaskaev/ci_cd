@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                cd ~/Projects/ci_cd/app/
+                cd /home/
                 echo 'Hello World'
             }
         }
