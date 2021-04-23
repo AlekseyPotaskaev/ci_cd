@@ -1,3 +1,2 @@
 # ci_cd
-script path Jenkinsfile 
-lightweight checkout - 
+ [![Build Status](https://40147aed5326.ngrok.io/job/test/badge/icon)](https://40147aed5326.ngrok.io/job/test/)
